@@ -5,7 +5,6 @@ from logging.handlers import TimedRotatingFileHandler
 from flask_redis import FlaskRedis
 from flask import Flask
 
-
 from application import settings
 # from application.settings.dev import DevelopmentConfig
 # from application.settings.pro import ProductionConfig

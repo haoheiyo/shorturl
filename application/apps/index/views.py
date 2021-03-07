@@ -25,7 +25,7 @@ def expand(key):
 
 @index.route('/shorten')
 def shorten():
-    url = request.args.get("url")
+    url = request.args.get("url","")
     if short.check_url(url):
         url = urllib.parse.quote(url)
         shorten_key = short.add_expand_url(url)
