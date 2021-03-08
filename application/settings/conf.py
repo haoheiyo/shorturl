@@ -6,7 +6,7 @@ import platform
 
 
 class GlobalConfig():
-    REDIS_URL = "redis://:Mimashisha@172.86.126.81:6379/0"
+    REDIS_URL = "redis://:123456@127.0.0.1:6379/0"
 
     # 配置日志
     LOG_LEVEL = "INFO"
