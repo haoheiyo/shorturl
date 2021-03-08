@@ -1,3 +1,4 @@
 Flask_Script==2.0.6
 Flask==1.1.1
 flask-redis==0.4.0
+uWSGI==2.0.19.1
