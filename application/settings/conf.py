@@ -13,6 +13,6 @@ class GlobalConfig():
 
     # 应用日志目录
     if platform.system() == "Linux":
-        LOG_DIR = "/var/log/shorturl/log"
+        LOG_DIR = "/var/log/shorturl/info.log"
     else:
-        LOG_DIR = "logs/log"
+        LOG_DIR = "logs/info.log"
