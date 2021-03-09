@@ -10,7 +10,7 @@ from .service import short
 
 @index.route('/')
 def index_blu():
-    return "hello,this is index!!!"
+    return "hello,this is index!"
 
 
 @index.route('/<key>')
